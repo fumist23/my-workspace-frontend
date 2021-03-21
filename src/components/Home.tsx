@@ -35,7 +35,7 @@ const Home = ({ className }: Props) => {
   return (
     <div className={clsx(classes.root, className)}>
       <Typography variant="h4">{"⛄️Experience⛄️"}</Typography>
-      <image src="/public/yukidaruma-min.jpg" width="64" height="64" />
+      {/* <image src="/public/yukidaruma-min.jpg" width="64" height="64" /> */}
       <Typography variant="h5" className={classes.term}>
         {"⭐️Short Term Internship⭐️"}
       </Typography>
